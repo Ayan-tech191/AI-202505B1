@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DESIGN HUB</title>
+    <title>PLANT NEST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <style>
    header .container{
     height: 100px;
@@ -43,6 +44,28 @@
         /* margin-left: 10px; */
 
     }
+    #gallery{
+        position: relative;
+    }
+    .dropdown{
+        position: absolute;
+        background-color: rgb(red, green, blue);
+        left: 30px;
+        width: 100px;
+        padding: 10px;
+        display: none;
+    }
+    .dropdown .item{
+        border-bottom: 1px solid black;
+        padding-bottom: 5px ;
+        padding-top: 3px;
+    }
+    #gallery:hover .dropdown{
+        display: block;
+    }
+    #cover .background{
+        background: url("images/");
+    }
           
     
 
@@ -55,13 +78,19 @@
         <div class="container">
                 <div class="navbar">
                     <div class="logo">
-                        <h2>DESIGN HUB</h2>
+                        <h2>PLANT NEST</h2>
                     </div>
                     <div class="nav">
                         <ul>
                             <li>HOME</li>
                             <li>ABOUT</li>
-                            <li>GALLERY</li>
+                            <li id="gallery">GALLERY
+                                <i class="fa fa-caret-down"></i>
+                                <div class="dropdown">
+                                    <div class="item">OUTER PLANT</div>
+                                    <div class="item">INDOOR PLANT</div>
+                                </div>
+                 </li>
                             <li>POLICY</li>
                             <li>CONTACT</li>
                             <li>FAQ</li>
@@ -71,5 +100,13 @@
         </div>
     </header>
     <!-- header end -->
+     <!-- COVER IMAGE SEC START -->
+      <section id="COVER">
+        <div class="background">
+            <div class="col">
+                <h1><span>WELCOME</span> TO PLANT NEST</h1>
+            </div>
+        </div>
+      </section>
 </body>
 </html>
