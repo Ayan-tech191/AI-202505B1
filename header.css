@@ -1,0 +1,108 @@
+*{
+    font-family: sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    /* background-image: url(banner.jpg); */
+    color: white;
+    
+}
+.container{
+    height: 500px;
+    background:linear-gradient(to bottom  , black , rgb(52, 52, 161));
+    color: antiquewhite;
+   
+}
+.main>div>ul>li{
+    display: inline;
+    margin-left: 20px;
+}
+.main>div>button{
+    padding: 10px;
+    font-size: 13px;
+    background-color: #b73439;
+    color: white;
+    border-radius: 7px;
+}
+#usedcar
+{
+    position: relative;
+
+}
+#usedcar:hover .dropdown
+{
+    display: block;
+
+}
+.dropdown
+{
+    position: absolute;
+    display: none;
+    background-color: white;
+    color: #434343;
+    width: 200%;
+
+}
+.item
+{
+    font-size: 15px;
+    padding: 6px;
+}
+
+.find{
+        /* background-color: yellow; */
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        /* padding: 2px 5px; */
+        color: white;
+}
+.find p{
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+    
+}
+.find h1{
+    font-size: 35px;
+}
+.search{
+    height: 60px;
+    background-color: yellow;
+    width: 60%;
+    margin:  0 auto;
+    position: relative;
+    top: 70px;
+    display: flex;
+  
+}
+
+.search .child{
+    width: 200px;
+    height: inherit;
+    background-color: white;
+      border-left: 1px solid gray;
+      align-items: center;
+      
+}
+.search .child h4{
+    text-align: center;
+    color: gray;
+
+}
+.child button{
+    align-items: center;
+    margin-left: 150px;
+     /* margin-top: 25px; */
+     height: inherit;
+     width: 60px;
+}
+.container{
+    background-color: ;
+}
